@@ -35,4 +35,20 @@ public class Person
         System.out.println("Nombre : " + name);
         System.out.println("Edad : " + age);
     }
+    
+    /**
+     * Metodo que permite fijar el padre de una persona
+     */
+    public void setFather(Person father)
+    {
+        this.father = father;
+    }
+    
+    /**
+     * Metodo que permite fijar la madre de una persona
+     */
+    public void setMother(Person mother)
+    {
+        this.mother = mother;
+    }
 }
