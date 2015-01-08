@@ -96,4 +96,16 @@ public class Person
         }
     }
     
+    /**
+     * Metodo booleano que indica si una persona tiene hijos o no
+     */
+    public boolean haschild()
+    {
+        boolean tieneHijos = false;
+        if( children.size() > 0)
+        {
+            tieneHijos = true;
+        }
+        return tieneHijos;
+    }
 }
