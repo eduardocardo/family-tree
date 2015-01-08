@@ -62,4 +62,22 @@ public class Person
     {
         children.add(child);
     }
+    
+    /**
+     * Muestra por pantalla los datos del padre y la madre de una persona
+     */
+    public void showParentsData()
+    {
+        if( father != null)
+        {
+            System.out.println("Datos del padre : " );
+            father.showData();
+        }
+        //para obtener los datos de la madre
+        if( mother != null)
+        {
+            System.out.println("Datos de la madre : "); 
+            mother.showData();
+        }   
+    }
 }
