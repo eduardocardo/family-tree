@@ -25,6 +25,9 @@ public class Person
     {
         this.name = name;
         this.age  = age;
+        father    = null;
+        mother    = null;
+        children  = new ArrayList<Person>();
     }
 
     /**
@@ -50,5 +53,13 @@ public class Person
     public void setMother(Person mother)
     {
         this.mother = mother;
+    }
+    
+    /**
+     * Metodo que permite añadir un hijo a una persona
+     */
+    public void addChild(Person child)
+    {
+        children.add(child);
     }
 }
