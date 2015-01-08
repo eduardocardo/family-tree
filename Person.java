@@ -80,4 +80,20 @@ public class Person
             mother.showData();
         }   
     }
+    
+    /**
+     * Muestra por pantalla los datos de los hijos de la persona
+     */
+    public void showChildrenData()
+    {
+        if(children.size() > 0) //si tiene hijos
+        {
+            System.out.println("Los datos de los hijos son");
+            for(Person child : children)
+            {
+                child.showData();
+            }   
+        }
+    }
+    
 }
