@@ -108,4 +108,12 @@ public class Person
         }
         return tieneHijos;
     }
+    
+    /**
+     * Metodo que devuelve el numero de hijos de una persona
+     */
+    public int getNumberOfChildren()
+    {
+        return children.size();
+    }
 }
